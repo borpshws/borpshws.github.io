@@ -1,0 +1,37 @@
+@keyframes fadein {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+    }
+}
+
+@keyframes movedown {
+    from {
+        top: 0%;
+    }
+    to {
+        top: 16rem;
+    }
+}
+
+@keyframes fadein-card-home {
+    from {
+        padding-top: 3rem;
+        opacity: 0%;
+    }
+    to {
+        padding-top: 6rem;
+        opacity: 100%;
+    }
+}
