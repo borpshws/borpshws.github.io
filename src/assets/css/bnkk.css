@@ -35,3 +35,20 @@
         opacity: 100%;
     }
 }
+
+background-image {
+    background-image: url(../img/background.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
