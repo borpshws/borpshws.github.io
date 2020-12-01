@@ -42,5 +42,5 @@ img.background {
     height: 100vh;
     object-fit: cover;
     position: absolute;
-    filter: blur(8px);
+    filter: blur(8px) brightness(50%);
 }
