@@ -44,3 +44,18 @@ img.background {
     position: absolute;
     filter: blur(8px) brightness(50%);
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: inherit;
+}

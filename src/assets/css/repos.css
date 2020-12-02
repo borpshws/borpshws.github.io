@@ -24,3 +24,18 @@ img.background {
 #off {
     opacity: 0%;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
