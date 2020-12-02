@@ -20,3 +20,7 @@ img.background {
     position: relative;
     z-index: 10;
 }
+
+#off {
+    opacity: 0%;
+}
