@@ -1,0 +1,61 @@
+@keyframes fadein {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 100%;
+    }
+    to {
+        opacity: 0%;
+    }
+}
+
+@keyframes movedown {
+    from {
+        top: 0%;
+    }
+    to {
+        top: 16rem;
+    }
+}
+
+@keyframes fadein-card-home {
+    from {
+        padding-top: 3rem;
+        opacity: 0%;
+    }
+    to {
+        padding-top: 6rem;
+        opacity: 100%;
+    }
+}
+
+img.background {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    filter: blur(8px) brightness(50%);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: inherit;
+}

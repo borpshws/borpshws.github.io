@@ -1,0 +1,41 @@
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+img.background {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    filter: blur(8px) brightness(50%);
+}
+
+#ontop {
+    position: relative;
+    z-index: 10;
+}
+
+#off {
+    opacity: 0%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #444444;
+    color: white;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit;
+}
